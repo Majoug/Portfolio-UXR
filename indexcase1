@@ -1,0 +1,60 @@
+<!-- okoume.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Okoume Redesign (Enedis)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body { margin:0; font-family:'Inter',sans-serif; line-height:1.6; color:#222; }
+    nav { background:#fff; padding:10px; border-bottom:1px solid #ececec; position:sticky; top:0; }
+    nav a { text-decoration:none; color:#555; font-weight:600; }
+    header { padding:80px 20px; text-align:center; background:#fafafa; }
+    header h1 { font-size:2.5rem; margin-bottom:8px; }
+    header p { font-size:1rem; }
+    section { max-width:800px; margin:40px auto; padding:0 20px; }
+    section h2 { font-size:1.5rem; margin-bottom:12px; font-weight:600; }
+    section p { margin-bottom:16px; }
+    .back { font-size:0.9rem; margin-top:20px; display:inline-block; }
+  </style>
+</head>
+<body>
+
+  <nav><a href="index.html">← Back to Home</a></nav>
+
+  <header>
+    <h1>Okoume Redesign (Enedis)</h1>
+    <p>User workflows • Accessibility (RGAA) • Workshops</p>
+  </header>
+
+  <section>
+    <h2>Context</h2>
+    <p>Okoume is Enedis’s core tool for managing network-quality data (Linky, PME-PMI, contracts). It suffered from data overload, a complex menu, and non-compliant visuals, hurting adoption.</p>
+  </section>
+
+  <section>
+    <h2>Objectives</h2>
+    <p>• Simplify workflows for smoother, faster use<br>
+       • Align UI with RGAA standards and Enedis’s brand<br>
+       • Pinpoint and solve key pain points</p>
+  </section>
+
+  <section>
+    <h2>Process</h2>
+    <p>• Kick-off workshop with stakeholders (PO, designers, devs)<br>
+       • User interviews (8 agents) using TEDW method<br>
+       • Co-creation sessions & tree tests to map menu flows<br>
+       • Two rounds of prototyping and usability tests</p>
+  </section>
+
+  <section>
+    <h2>Results</h2>
+    <p>• Workflows simplified and streamlined<br>
+       • Full RGAA compliance and updated visuals<br>
+       • Positive feedback on navigation clarity<br>
+       • Ready-to-ship UX deliverables (audit, prototypes, IA maps)</p>
+  </section>
+
+</body>
+</html>
