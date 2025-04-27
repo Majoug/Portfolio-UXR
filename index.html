@@ -12,33 +12,40 @@
 
 <body>
     <header class="navigation">
+        <a href="/" class="navigation__logo-link">
+            <svg class="navigation__logo">
+                <use href="./public/icons/icons.svg#mj-logo"></use>
+            </svg>
+        </a>
+
         <nav class="navigation__link-list">
             <a href="#home" id="nav-home" class="active">Accueil</a>
             <a href="#about" id="nav-about">À propos</a>
             <a href="#projects" id="nav-projects">Projets</a>
             <a href="#contact" id="nav-contact">Contact</a>
+
+            <select class="navigation__language-selector language-selector">
+                <button class="language-selector__button">
+                    <selectedcontent></selectedcontent>
+                    <svg class="icon language-selector__picker-icon" aria-hidden="true">
+                        <use href="./public/icons/icons.svg#arrow-down"></use>
+                    </svg>
+                </button>
+
+                <div class="language-selector__dropdown">
+                    <option selected value="fr" class="language-selector__option">
+                        <span aria-hidden="true">🇫🇷</span> Français
+                    </option>
+                    <option value="en" class="language-selector__option">
+                        <span aria-hidden="true">🇬🇧</span> English
+                    </option>
+                    <option value="es" class="language-selector__option">
+                        <span aria-hidden="true">🇪🇸</span> Español
+                    </option>
+                </div>
+            </select>
         </nav>
 
-        <select class="navigation__language-selector language-selector">
-            <button class="language-selector__button">
-                <selectedcontent></selectedcontent>
-                <svg class="icon language-selector__picker-icon" aria-hidden="true">
-                    <use href="./public/icons/icons.svg#arrow-down"></use>
-                </svg>
-            </button>
-
-            <div class="language-selector__dropdown">
-                <option selected value="fr" class="language-selector__option">
-                    <span aria-hidden="true">🇫🇷</span> Français
-                </option>
-                <option value="en" class="language-selector__option">
-                    <span aria-hidden="true">🇬🇧</span> English
-                </option>
-                <option value="es" class="language-selector__option">
-                    <span aria-hidden="true">🇪🇸</span> Español
-                </option>
-            </div>
-        </select>
     </header>
 
     <section id="home" class="hero">

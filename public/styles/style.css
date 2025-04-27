@@ -98,21 +98,26 @@ body {
     position: fixed;
     top: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: calc(5 * var(--unit));
     width: 100dvw;
-    padding: 0 calc(2 * var(--unit));
+    padding: 0 calc(5 * var(--unit));
     border-bottom: 1px solid var(--border-color);
     background-color: var(--light-color);
 
-    .navigation__language-selector {
-        position: absolute;
-        right: calc(2 * var(--unit));
+    .navigation__logo-link {
+        display: contents;
+    }
+
+    .navigation__logo {
+        height: 100%;
+        width: 5rem;
     }
 
     .navigation__link-list {
         display: flex;
+        align-items: center;
         gap: calc(2 * var(--unit));
         font-weight: 600;
     }
