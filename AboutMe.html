@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset & Base */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f9f9f9;
+        }
+        main {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        h2 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: #111;
+            margin-bottom: 20px;
+        }
+        /* Intro Section */
+        .about-intro {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+            margin-bottom: 60px;
+        }
+        .about-intro .intro-text p {
+            font-size: 1.125rem;
+            color: #444;
+            margin-bottom: 16px;
+        }
+        .about-intro .intro-image img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+        }
+        @media (max-width: 768px) {
+            .about-intro { grid-template-columns: 1fr; text-align: center; }
+            .about-intro .intro-image img { margin-bottom: 20px; }
+        }
+        /* Skills */
+        .skills-section ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        .skills-section li {
+            background: #eee;
+            color: #555;
+            padding: 8px 16px;
+            border-radius: 999px;
+            font-size: 0.9rem;
+        }
+        .section { margin-bottom: 60px; }
+        .section p { font-size: 1rem; color: #444; margin-bottom: 16px; }
+    </style>
+</head>
+<body>
+    <main>
+        <section class="about-intro section">
+    <div class="intro-text">
+        <h2>About Me</h2>
+        <p>I'm a Senior UX Researcher passionate about cognitive psychology and usability. I combine qualitative & quantitative methods to deliver clear, actionable insights that align user needs with business goals.</p>
+        <p>With 7+ years of experience, I guide cross-functional teams through user-centered design processes—from generative research to prototyping and testing.</p>
+    </div>
+    <div class="intro-image">
+        <img
+  src="about-me.png"
+  loading="lazy"
+  alt="Maria Jose Urbiola Gallegos speaking at a conference"
+  style="width:100%;max-width:300px;border-radius:50%;"
+>
+    </div>
+</section>
+
+        <section class="skills-section section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Generative Research</li>
+                <li>Usability Testing</li>
+                <li>Workshops & Facilitation</li>
+                <li>Persona & Journey Mapping</li>
+                <li>Accessibility (RGAA)</li>
+                <li>ResearchOps</li>
+                <li>Mentoring</li>
+            </ul>
+        </section>
+
+        <section class="experience-section section">
+            <h2>Experience</h2>
+            <p><strong>UX Researcher, Enedis</strong> (Mar 2023 – Apr 2024): Led Okoume redesign, improving workflows and accessibility with data-driven insights.</p>
+            <p><strong>UX Researcher, Ankorstore</strong> (Apr 2022 – Dec 2022): Developed reordering feature, reducing order time from 17 to 5.5 minutes and boosting conversion.</p>
+            <p><strong>UX Researcher, Singulier</strong> (Sep 2021 – Mar 2022): Created personas and journeys, increasing product adoption by 35% through targeted recommendations.</p>
+        </section>
+
+        <section class="education-section section">
+            <h2>Education</h2>
+            <p><strong>PhD in Cognitive Psychology & HCI</strong>, Université de Paris (2018 – 2021)</p>
+            <p><strong>Master in Neuropsychology</strong>, Université Paris VIII (2016 – 2018)</p>
+        </section>
+
+        <section class="interests-section section">
+            <h2>Interests</h2>
+            <p>I'm enthusiastic about accessibility standards, mentoring junior researchers, and exploring how emerging technologies shape user behavior.</p>
+        </section>
+    </main>
+</body>
+</html>
+
