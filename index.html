@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Maria Jose Urbiola Gallegos – Senior UX Researcher – IHM – Neuropsychologue</title>
+    <title>Maria Jose Urbiola Gallegos - Senior UX Researcher - IHM - Neuropsychologue</title>
+
     <link rel="preload" href="./public/fonts/Inter.ttf" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="./public/fonts/Inter-italic.ttf" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" href="./public/styles/style.css" />
@@ -19,12 +20,20 @@
         </a>
 
         <nav class="navigation__link-list">
-            <a href="#home" id="nav-home" class="active">Accueil</a>
-            <a href="#about" id="nav-about">À propos</a>
-            <a href="#projects" id="nav-projects">Projets</a>
-            <a href="#contact" id="nav-contact">Contact</a>
+            <a href="#home" id="nav-home" class="active">
+                <mj-i18n key="home.navigationLinks.home" />
+            </a>
+            <a href="#about" id="nav-about">
+                <mj-i18n key="home.navigationLinks.about" />
+            </a>
+            <a href="#projects" id="nav-projects">
+                <mj-i18n key="home.navigationLinks.projects" />
+            </a>
+            <a href="#contact" id="nav-contact">
+                <mj-i18n key="home.navigationLinks.contact" />
+            </a>
 
-            <select class="navigation__language-selector language-selector">
+            <select id="language-select" class="navigation__language-selector language-selector">
                 <button class="language-selector__button">
                     <selectedcontent></selectedcontent>
                     <svg class="icon language-selector__picker-icon" aria-hidden="true">
@@ -49,13 +58,13 @@
     </header>
 
     <section id="home" class="hero">
-        <h1 class="hero__name">Maria Jose Urbiola Gallegos</h1>
-        <h2 class="hero__title">Senior UX Researcher – IHM – Neuropsychologue</h2>
+        <h1 class="hero__name">María José Urbiola Gallegos</h1>
+        <h2 class="hero__title"><mj-i18n key="home.hero.subtitle" /></h2>
     </section>
 
     <main class="main">
         <section id="about" class="about">
-            <h2 class="about__title">À propos</h2>
+            <h2 class="about__title">[TODO] À propos</h2>
             <p>
                 Je suis UX Researcher Senior, spécialisée en psychologie cognitive et ergonomie. Mon objectif est
                 d'explorer
@@ -69,32 +78,30 @@
             <ul class="projects__list">
                 <li class="projects__ignore">
                     <a href="okoume.html" class="projects__item">
-                        <h3 class="projects__title">Refonte Okoume (Enedis)</h3>
+                        <h3 class="projects__title"><mj-i18n key="home.projects.okoume.title" /></h3>
                         <p class="projects__keywords">Okoume, RGAA, Workshop</p>
-                        <p>Simplification des workflows de l'outil Okoume, adaptation de l'interface aux normes RGAA et
-                            amélioration de l'efficacité via ateliers et tests utilisateurs.</p>
+                        <p><mj-i18n key="home.projects.okoume.pitch" /></p>
                     </a>
                 </li>
                 <li class="projects__ignore">
                     <a href="" class="projects__item">
-                        <h3 class="projects__title">Reordering Marketplace (Ankorstore)</h3>
+                        <h3 class="projects__title"><mj-i18n key="home.projects.ankorstore.title" /></h3>
                         <p class="projects__keywords">Reordering, Conversion, Marketplace</p>
-                        <p>Création d'une fonctionnalité de reordering intuitive et refonte du panier pour améliorer le
-                            taux de finalisation des commandes.</p>
+                        <p><mj-i18n key="home.projects.ankorstore.pitch" /></p>
                     </a>
                 </li>
                 <li class="projects__ignore">
                     <a href="" class="projects__item">
-                        <h3 class="projects__title">Optimisation UX (Aromazone)</h3>
+                        <h3 class="projects__title"><mj-i18n key="home.projects.aromazone.title" /></h3>
                         <p class="projects__keywords">Navigation, Conversion, DIY</p>
-                        <p>Refonte du site pour simplifier la navigation et clarifier l'offre produit.</p>
+                        <p><mj-i18n key="home.projects.aromazone.pitch" /></p>
                     </a>
                 </li>
                 <li class="projects__ignore">
                     <a href="" class="projects__item">
-                        <h3 class="projects__title">Adoption produit (Singulier)</h3>
+                        <h3 class="projects__title"><mj-i18n key="home.projects.singulier.title" /></h3>
                         <p class="projects__keywords">Personas, Workshops, Adoption</p>
-                        <p>Développement de personas et parcours pour augmenter l'adoption du produit de 35%.</p>
+                        <p><mj-i18n key="home.projects.singulier.pitch" /></p>
                     </a>
                 </li>
             </ul>
@@ -103,7 +110,7 @@
 
     <footer id="contact" class="contact">
         <section>
-            <h2 class="contact__title">Contact</h2>
+            <h2 class="contact__title"><mj-i18n key="home.contact.title" /></h2>
             <p>
                 <a class="contact__link" href="tel:+33763430474">
                     <svg class="icon" aria-hidden="true">
@@ -122,6 +129,11 @@
             </p>
         </section>
     </footer>
+
+    <script type="module" src="scripts/signal.mjs"></script>
+    <script type="module" src="scripts/i18n.mjs"></script>
+    <script type="module" src="scripts/language-select.mjs"></script>
+    <script type="module" src="scripts/mj-i18n.mjs"></script>
 </body>
 
 </html>
