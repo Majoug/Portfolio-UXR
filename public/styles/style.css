@@ -176,6 +176,14 @@ body {
     }
 }
 
+@supports not (appearance: base-select) {
+    .language-selector {
+        padding: .5rem .75rem;
+        border-radius: .33rem;
+        cursor: pointer;
+    }
+}
+
 .hero {
     display: flex;
     height: 100dvh;
