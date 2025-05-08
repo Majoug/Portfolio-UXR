@@ -28,7 +28,7 @@ export class I18n {
         const value = key.split('.').reduce((obj, prop) => {
             return obj ? obj[prop] : null;
         }, translations);
-        
+
         return value;
     }
 
@@ -40,6 +40,7 @@ export class I18n {
         this.#writeLocale(newLocale);
         this.#setStoredLocale(newLocale);
         await this.#loadTranslations(newLocale);
+        document.querySelector('html').setAttribute('lang', newLocale);
     }
 
     #getStoredLocale() {
@@ -70,7 +71,7 @@ export class I18n {
     }
 
     async #loadTranslations(locale) {
-        const translationPath = `./public/i18n/${locale}.json`;
+        const translationPath = `/public/i18n/${locale}.json`;
         const response = await fetch(translationPath);
         const loadedTranslations = await response.json();
         this.#writeTranslations(loadedTranslations);

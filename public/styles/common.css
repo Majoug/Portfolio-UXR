@@ -55,12 +55,17 @@ h3,
 h4,
 h5,
 h6 {
+    margin-bottom: .66em;
     overflow-wrap: break-word;
 }
 
 a {
     color: currentColor;
     cursor: pointer;
+}
+
+ul {
+    padding-inline-start: 1em;
 }
 
 /**
@@ -71,6 +76,47 @@ a {
     --dark-color: #191919;
     --light-color: #fafafa;
     --border-color: #ececec;
+    --nav-height: calc(5 * var(--unit));
+}
+
+/**
+ * Typography - Based on minor 3rd
+ */
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.488rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 2.074rem;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1.728rem;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 1.44rem;
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1rem;
+}
+
+small {
+    font-size: .8rem;
 }
 
 /**
@@ -91,6 +137,10 @@ body {
     stroke: currentColor;
 }
 
+.anchor {
+    scroll-margin-block-start: 7.5rem;
+}
+
 /**
  * Navigation and related
  */
@@ -105,6 +155,7 @@ body {
     padding: 0 calc(5 * var(--unit));
     border-bottom: 1px solid var(--border-color);
     background-color: var(--light-color);
+    z-index: 1;
 
     .navigation__logo-link {
         display: contents;
@@ -181,5 +232,11 @@ body {
         padding: .5rem .75rem;
         border-radius: .33rem;
         cursor: pointer;
+    }
+}
+
+.main {
+    section+section {
+        margin-top: 4rem;
     }
 }

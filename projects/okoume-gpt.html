@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Study: Okoume Redesign (Enedis)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Basic Reset and General Styles */
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        main {
+            max-width: 1400px;
+            margin: 40px auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 250px 1fr;
+            gap: 60px;
+        }
+
+        @media (max-width: 900px) {
+            main {
+                grid-template-columns: 1fr;
+            }
+
+            .case-study-nav {
+                margin-bottom: 30px;
+                border-bottom: 1px solid #eee;
+                padding-bottom: 20px;
+            }
+        }
+
+        h1 {
+            font-size: 2.75rem;
+            font-weight: 700;
+            color: #111;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #222;
+            margin-top: 40px;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: #333;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+        h4 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #111;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1rem;
+            color: #444;
+            margin-bottom: 16px;
+        }
+
+        ul {
+            margin-bottom: 16px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Left Navigation */
+        .case-study-nav {
+            padding-top: 20px;
+            position: sticky;
+            top: 20px;
+            height: fit-content;
+        }
+
+        .case-study-nav h3 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #111;
+            margin-bottom: 10px;
+        }
+
+        .case-study-nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .case-study-nav li {
+            margin-bottom: 8px;
+        }
+
+        .case-study-nav a {
+            text-decoration: none;
+            color: #555;
+            font-size: 0.9rem;
+        }
+
+        .case-study-nav a:hover {
+            color: #007bff;
+        }
+
+        /* Content */
+        .case-study-content {
+            padding-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <aside class="case-study-nav">
+            <h3>Contents</h3>
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#problem">Problem Statement</a></li>
+                <li><a href="#research-questions">Research Questions</a></li>
+                <li><a href="#methodology">Methodology</a></li>
+                <li><a href="#findings">Key Findings</a></li>
+                <li><a href="#analysis">Analysis & Discussion</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>
+                <li><a href="#references">References</a></li>
+            </ul>
+        </aside>
+        <div class="case-study-content">
+            <section id="introduction">
+                <h1>Okoume Redesign (Enedis)</h1>
+                <p>Okoume is Enedis’s core reference tool for managing network-quality data from Linky and PME-PMI
+                    meters. While essential, its interface suffered from data overload, complex navigation, and
+                    non-compliance with RGAA accessibility standards.</p>
+            </section>
+
+            <section id="problem">
+                <h2>Problem Statement</h2>
+                <p>Users struggled to find critical information quickly due to cluttered screens and a confusing menu
+                    structure. The outdated UI did not meet Enedis’s brand guidelines or accessibility norms, reducing
+                    efficiency and adoption.</p>
+            </section>
+
+            <section id="research-questions">
+                <h2>Research Questions</h2>
+                <ul>
+                    <li>How do users complete their daily workflows within Okoume?</li>
+                    <li>What pain points do users encounter when navigating the tool?</li>
+                    <li>Which accessibility barriers prevent efficient use for all users?</li>
+                </ul>
+            </section>
+
+            <section id="methodology">
+                <h2>Methodology</h2>
+                <p>We kicked off with a stakeholder workshop to align on goals and scope. Conducted eight user
+                    interviews using the TEDW method for deep insights. Performed tree tests to evaluate menu structure.
+                    Organized RICE-prioritized co-creation sessions. Developed two prototype iterations and validated
+                    with usability tests.</p>
+            </section>
+
+            <section id="findings">
+                <h2>Key Findings</h2>
+                <ul>
+                    <li><strong>Cognitive overload:</strong> Too much data per screen hindered decision-making.</li>
+                    <li><strong>Navigation inefficiencies:</strong> Complex IA led to extended search times.</li>
+                    <li><strong>Accessibility gaps:</strong> Multiple elements failed RGAA compliance checks.</li>
+                    <li><strong>Information hierarchy:</strong> Critical metrics were not prioritized visually.</li>
+                </ul>
+            </section>
+
+            <section id="analysis">
+                <h2>Analysis & Discussion</h2>
+                <p>Mapping user journeys revealed redundancies in menu paths. Accessibility audits flagged missing ARIA
+                    labels and contrast issues. Co-creation workshops confirmed users wanted a simplified dashboard with
+                    filtered views of key data.</p>
+            </section>
+
+            <section id="conclusion">
+                <h2>Conclusion</h2>
+                <p>The redesign streamlined workflows, ensured full RGAA compliance, and improved user satisfaction.
+                    Iterative testing and stakeholder collaboration were critical to meeting both user and business
+                    goals. Next steps include rolling out phased updates and monitoring adoption metrics.</p>
+            </section>
+
+            <section id="references">
+                <h2>References</h2>
+                <ul>
+                    <li>Enedis RGAA Guidelines</li>
+                    <li>TEDW Interview Protocol</li>
+                    <li>Tree Testing Reports</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>

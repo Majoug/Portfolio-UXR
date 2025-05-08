@@ -27,21 +27,6 @@
     margin: auto;
     border-top: 1px solid var(--border-color);
     border-bottom: 1px solid var(--border-color);
-
-    h2 {
-        margin-bottom: 1em;
-        font-size: 2rem;
-        font-weight: 600;
-    }
-
-    section+section {
-        margin-top: 5rem;
-    }
-}
-
-.about,
-.projects {
-    scroll-margin-block-start: 7.5rem;
 }
 
 .projects {
@@ -73,29 +58,5 @@
     .projects__keywords {
         margin-bottom: 1em;
         font-style: italic;
-    }
-}
-
-.contact {
-    padding: 3em 1em;
-    background-color: var(--dark-color);
-    color: var(--light-color);
-
-    section {
-        max-width: 75ch;
-        margin: auto;
-    }
-
-    .contact__title {
-        margin-bottom: .5em;
-        font-size: 2rem;
-        font-weight: 600;
-    }
-
-    .contact__link {
-        display: inline-flex;
-        align-items: center;
-        gap: 1em;
-        margin-bottom: .5em;
     }
 }

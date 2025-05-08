@@ -2,7 +2,107 @@
     "home": {
         "navigationLinks": {
             "home": "Home",
-            "about": "About"
+            "caseStudies": "Case Studies",
+            "aboutMe": "About Me",
+            "Resume": "Resume"
+        },
+        "hero": {
+            "subtitle": "Senior UX Researcher - HCI - Neuropsychologist"
+        },
+        "projects": {
+            "okoume": {
+                "title": "Okoume Redesign (Enedis)",
+                "keywords": "Okoume, RGAA, Workshop",
+                "pitch": "Simplification of Okoume tool workflows, adaptation of the interface to RGAA standards, and improvement of efficiency via workshops and user tests."
+            },
+            "ankorstore": {
+                "title": "Reordering Marketplace (Ankorstore)",
+                "keywords": "Reordering, Conversion, Marketplace",
+                "pitch": "Creation of an intuitive reordering feature and redesign of the shopping cart to improve the order completion rate."
+            },
+            "aromazone": {
+                "title": "UX Optimization (Aromazone)",
+                "keywords": "Navigation, Conversion, DIY",
+                "pitch": "Redesign of the site to simplify navigation and clarify the product offering."
+            },
+            "singulier": {
+                "title": "Product Adoption (Singulier)",
+                "keywords": "Personas, Workshops, Adoption",
+                "pitch": "Development of personas and journeys to increase product adoption by 35%."
+            }
+        },
+        "contact": {
+            "title": "Contact"
+        }
+    },
+    "caseStudy": {
+        "nav": {
+            "title": "Contents",
+            "links": {
+                "introduction": "Introduction",
+                "problemStatement": "Problem Statement",
+                "researchQuestions": "Research Questions",
+                "methodology": "Methodology",
+                "keyFindings": "Key Findings",
+                "analysisDiscussion": "Analysis & Discussion",
+                "conclusion": "Conclusion",
+                "references": "References"
+            }
+        },
+        "study": {
+            "okoume": {
+                "introduction": {
+                    "title": "Okoume Redesign (Enedis)",
+                    "content": "Okoume is Enedis's core reference tool for managing network-quality data from Linky and PME-PMI meters. While essential, its interface suffered from data overload, complex navigation, and non-compliance with RGAA accessibility standards."
+                },
+                "problem": {
+                    "title": "Problem Statement",
+                    "content": "Users struggled to find critical information quickly due to cluttered screens and a confusing menu structure. The outdated UI did not meet Enedis's brand guidelines or accessibility norms, reducing efficiency and adoption."
+                },
+                "researchQuestions": {
+                    "title": "Research Questions",
+                    "workflows": "How do users complete their daily workflows within Okoume?",
+                    "painPoints": "What pain points do users encounter when navigating the tool?",
+                    "accessibility": "Which accessibility barriers prevent efficient use for all users?"
+                },
+                "methodology": {
+                    "title": "Methodology",
+                    "content": "We kicked off with a stakeholder workshop to align on goals and scope. Conducted eight user interviews using the TEDW method for deep insights. Performed tree tests to evaluate menu structure. Organized RICE-prioritized co-creation sessions. Developed two prototype iterations and validated with usability tests."
+                },
+                "findings": {
+                    "title": "Key Findings",
+                    "cognitive": {
+                        "title": "Cognitive overload:",
+                        "precision": "Too much data per screen hindered decision-making."
+                    },
+                    "navigation": {
+                        "title": "Navigation inefficiencies:",
+                        "precision": "Complex IA led to extended search times."
+                    },
+                    "accessibility": {
+                        "title": "Accessibility gaps:",
+                        "precision": "Multiple elements failed RGAA compliance checks."
+                    },
+                    "information": {
+                        "title": "Information hierarchy:",
+                        "precision": "Critical metrics were not prioritized visually."
+                    }
+                },
+                "analysis": {
+                    "title": "Analysis & Discussion",
+                    "content": "Mapping user journeys revealed redundancies in menu paths. Accessibility audits flagged missing ARIA labels and contrast issues. Co-creation workshops confirmed users wanted a simplified dashboard with filtered views of key data."
+                },
+                "conclusion": {
+                    "title": "Conclusion",
+                    "content": "The redesign streamlined workflows, ensured full RGAA compliance, and improved user satisfaction. Iterative testing and stakeholder collaboration were critical to meeting both user and business goals. Next steps include rolling out phased updates and monitoring adoption metrics."
+                },
+                "references": {
+                    "title": "References",
+                    "guidelines": "Enedis RGAA Guidelines",
+                    "protocol": "TEDW Interview Protocol",
+                    "tree": "Tree Testing Reports"
+                }
+            }
         }
     }
 }

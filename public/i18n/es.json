@@ -2,7 +2,107 @@
     "home": {
         "navigationLinks": {
             "home": "Inicio",
-            "about": "Sobre mí"
+            "caseStudies": "Casos de estudio",
+            "aboutMe": "Sobre mí",
+            "Resume": "Currículum"
+        },
+        "hero": {
+            "subtitle": "Investigador UX Senior - HCI - Neuropsicólogo"
+        },
+        "projects": {
+            "okoume": {
+                "title": "Rediseño Okoume (Enedis)",
+                "keywords": "Okoume, RGAA, Taller",
+                "pitch": "Simplificación de los flujos de trabajo de la herramienta Okoume, adaptación de la interfaz a las normas RGAA y mejora de la eficiencia mediante talleres y pruebas de usuario."
+            },
+            "ankorstore": {
+                "title": "Reordenación del Marketplace (Ankorstore)",
+                "keywords": "Reordenación, Conversión, Marketplace",
+                "pitch": "Creación de una función de reordenación intuitiva y rediseño del carrito de compras para mejorar la tasa de finalización de pedidos."
+            },
+            "aromazone": {
+                "title": "Optimización UX (Aromazone)",
+                "keywords": "Navegación, Conversión, DIY",
+                "pitch": "Rediseño del sitio para simplificar la navegación y clarificar la oferta de productos."
+            },
+            "singulier": {
+                "title": "Adopción de producto (Singulier)",
+                "keywords": "Personas, Talleres, Adopción",
+                "pitch": "Desarrollo de personas y recorridos para aumentar la adopción del producto en un 35%."
+            }
+        },
+        "contact": {
+            "title": "Contacto"
+        }
+    },
+    "caseStudy": {
+        "nav": {
+            "title": "Contenido",
+            "links": {
+                "introduction": "Introducción",
+                "problemStatement": "Planteamiento del problema",
+                "researchQuestions": "Preguntas de investigación",
+                "methodology": "Metodología",
+                "keyFindings": "Resultados clave",
+                "analysisDiscussion": "Análisis y Discusión",
+                "conclusion": "Conclusión",
+                "references": "Referencias"
+            }
+        },
+        "study": {
+            "okoume": {
+                "introduction": {
+                    "title": "Rediseño de Okoume (Enedis)",
+                    "content": "Okoume es la herramienta de referencia central de Enedis para gestionar datos de calidad de la red de los contadores Linky y PME-PMI. Aunque esencial, su interfaz sufría de sobrecarga de datos, navegación compleja e incumplimiento de las normas de accesibilidad RGAA."
+                },
+                "problem": {
+                    "title": "Planteamiento del problema",
+                    "content": "Los usuarios tenían dificultades para encontrar información crítica rápidamente debido a pantallas sobrecargadas y una estructura de menú confusa. La interfaz obsoleta no cumplía con las directrices de marca de Enedis ni con las normas de accesibilidad, lo que reducía la eficiencia y la adopción."
+                },
+                "researchQuestions": {
+                    "title": "Preguntas de investigación",
+                    "workflows": "¿Cómo completan los usuarios sus flujos de trabajo diarios dentro de Okoume?",
+                    "painPoints": "¿Qué puntos débiles encuentran los usuarios al navegar por la herramienta?",
+                    "accessibility": "¿Qué barreras de accesibilidad impiden un uso eficiente para todos los usuarios?"
+                },
+                "methodology": {
+                    "title": "Metodología",
+                    "content": "Comenzamos con un taller de partes interesadas para alinear objetivos y alcance. Realizamos ocho entrevistas a usuarios utilizando el método TEDW para obtener información detallada. Realizamos pruebas de árbol para evaluar la estructura del menú. Organizamos sesiones de co-creación priorizadas con RICE. Desarrollamos dos iteraciones de prototipos y las validamos con pruebas de usabilidad."
+                },
+                "findings": {
+                    "title": "Resultados clave",
+                    "cognitive": {
+                        "title": "Sobrecarga cognitiva:",
+                        "precision": "Demasiados datos por pantalla dificultaban la toma de decisiones."
+                    },
+                    "navigation": {
+                        "title": "Ineficiencias de navegación:",
+                        "precision": "Una IA compleja provocaba tiempos de búsqueda prolongados."
+                    },
+                    "accessibility": {
+                        "title": "Brechas de accesibilidad:",
+                        "precision": "Múltiples elementos no superaron las comprobaciones de cumplimiento de RGAA."
+                    },
+                    "information": {
+                        "title": "Jerarquía de la información:",
+                        "precision": "Las métricas críticas no se priorizaron visualmente."
+                    }
+                },
+                "analysis": {
+                    "title": "Análisis y Discusión",
+                    "content": "El mapeo de los recorridos del usuario reveló redundancias en las rutas del menú. Las auditorías de accesibilidad señalaron la falta de etiquetas ARIA y problemas de contraste. Los talleres de co-creación confirmaron que los usuarios querían un panel de control simplificado con vistas filtradas de los datos clave."
+                },
+                "conclusion": {
+                    "title": "Conclusión",
+                    "content": "El rediseño simplificó los flujos de trabajo, garantizó el pleno cumplimiento de RGAA y mejoró la satisfacción del usuario. Las pruebas iterativas y la colaboración de las partes interesadas fueron fundamentales para cumplir los objetivos tanto del usuario como del negocio. Los próximos pasos incluyen la implementación de actualizaciones por fases y el seguimiento de las métricas de adopción."
+                },
+                "references": {
+                    "title": "Referencias",
+                    "guidelines": "Directrices RGAA de Enedis",
+                    "protocol": "Protocolo de entrevista TEDW",
+                    "tree": "Informes de pruebas de árbol"
+                }
+            }
         }
     }
 }
