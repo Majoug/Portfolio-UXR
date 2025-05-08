@@ -33,12 +33,14 @@ main {
         margin-bottom: .5em;
     }
 
-    a {
+    .case-study__link {
         text-decoration: underline .1em dashed transparent;
         text-underline-offset: .33em;
+        transition: color .15s ease-in-out;
     }
 
-    a:hover {
+    .case-study__link:hover,
+    .case-study__link--active {
         color: color-mix(in srgb, var(--dark-color) 50%, var(--light-color));
         text-decoration-color: currentColor;
     }
