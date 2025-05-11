@@ -1,0 +1,242 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-italic.ttf');
+    font-display: swap;
+    font-style: italic;
+}
+
+/**
+ * Reset
+ */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        interpolate-size: allow-keywords;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: .66em;
+    overflow-wrap: break-word;
+}
+
+a {
+    color: currentColor;
+    cursor: pointer;
+}
+
+ul {
+    padding-inline-start: 1em;
+}
+
+/**
+ * Tokens
+ */
+:root {
+    --unit: 1rem;
+    --dark-color: #191919;
+    --light-color: #fafafa;
+    --border-color: #ececec;
+    --nav-height: calc(5 * var(--unit));
+}
+
+/**
+ * Typography - Based on minor 3rd
+ */
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.488rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 2.074rem;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1.728rem;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 1.44rem;
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1rem;
+}
+
+small {
+    font-size: .8rem;
+}
+
+/**
+ * Common styles
+ */
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+}
+
+.icon {
+    display: inline-flex;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+    stroke: currentColor;
+}
+
+.anchor {
+    scroll-margin-block-start: 7.5rem;
+}
+
+/**
+ * Navigation and related
+ */
+.navigation {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: calc(5 * var(--unit));
+    width: 100dvw;
+    padding: 0 calc(5 * var(--unit));
+    border-bottom: 1px solid var(--border-color);
+    background-color: var(--light-color);
+    z-index: 1;
+
+    .navigation__logo-link {
+        display: contents;
+    }
+
+    .navigation__logo {
+        height: 100%;
+        width: 5rem;
+    }
+
+    .navigation__link-list {
+        display: flex;
+        align-items: center;
+        gap: calc(2 * var(--unit));
+        font-weight: 600;
+    }
+}
+
+.language-selector {
+    width: 15ch;
+    border: 1px solid var(--dark-color);
+    padding: 0;
+    background-color: var(--light-color);
+
+    &,
+    &::picker(select) {
+        appearance: base-select;
+    }
+
+    &::picker-icon {
+        display: none;
+    }
+
+    &:open {
+        .language-selector__picker-icon {
+            transform: rotate(.5turn);
+        }
+
+        &::picker {
+            height: auto;
+        }
+    }
+
+    .language-selector__picker-icon {
+        font-size: .75em;
+        transition: transform .15s ease-in-out;
+    }
+
+    &::picker(select) {
+        border-radius: .33rem;
+        background-color: var(--light-color);
+        transform: translateY(.33rem);
+    }
+
+    .language-selector__button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        gap: .5rem;
+        padding: .5rem .75rem;
+        cursor: pointer;
+    }
+
+    .language-selector__option {
+        display: flex;
+        padding-block: .33rem;
+        padding-inline: .5rem;
+    }
+}
+
+@supports not (appearance: base-select) {
+    .language-selector {
+        padding: .5rem .75rem;
+        border-radius: .33rem;
+        cursor: pointer;
+    }
+}
+
+.main {
+    section+section {
+        margin-top: 4rem;
+    }
+}

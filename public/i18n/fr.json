@@ -1,0 +1,108 @@
+{
+    "home": {
+        "navigationLinks": {
+            "home": "Accueil",
+            "caseStudies": "Cas d'étude",
+            "about": "À propos",
+            "resume": "C.V."
+        },
+        "hero": {
+            "subtitle": "Senior UX Researcher - IHM - Neuropsychologue"
+        },
+        "contact": {
+            "title": "Contact"
+        }
+    },
+    "caseStudies": {
+        "okoume": {
+            "title": "Refonte Okoume (Enedis)",
+            "keywords": "Okoume, RGAA, Workshop",
+            "pitch": "Simplification des workflows de l'outil Okoume, adaptation de l'interface aux normes RGAA et amélioration de l'efficacité via ateliers et tests utilisateurs."
+        },
+        "ankorstore": {
+            "title": "Reordering Marketplace (Ankorstore)",
+            "keywords": "Reordering, Conversion, Marketplace",
+            "pitch": "Création d'une fonctionnalité de reordering intuitive et refonte du panier pour améliorer le taux de finalisation des commandes."
+        },
+        "aromazone": {
+            "title": "Optimisation UX (Aromazone)",
+            "keywords": "Navigation, Conversion, DIY",
+            "pitch": "Refonte du site pour simplifier la navigation et clarifier l'offre produit."
+        },
+        "singulier": {
+            "title": "Adoption produit (Singulier)",
+            "keywords": "Personas, Workshops, Adoption",
+            "pitch": "Développement de personas et parcours pour augmenter l'adoption du produit de 35%."
+        }
+    },
+    "caseStudy": {
+        "nav": {
+            "title": "Table des matières",
+            "links": {
+                "introduction": "Introduction",
+                "problemStatement": "Problématique",
+                "researchQuestions": "Questions de recherche",
+                "methodology": "Méthodologie",
+                "keyFindings": "Résultats clés",
+                "analysisDiscussion": "Analyse & Discussion",
+                "conclusion": "Conclusion",
+                "references": "Références"
+            }
+        },
+        "study": {
+            "okoume": {
+                "introduction": {
+                    "title": "Refonte Okoume (Enedis)",
+                    "content": "Okoume est l'outil de référence principal d'Enedis pour la gestion des données de qualité du réseau provenant des compteurs Linky et PME-PMI. Bien qu'essentiel, son interface souffrait d'une surcharge de données, d'une navigation complexe et d'une non-conformité aux normes d'accessibilité RGAA."
+                },
+                "problem": {
+                    "title": "Problématique",
+                    "content": "Les utilisateurs peinaient à trouver rapidement les informations critiques en raison d'écrans surchargés et d'une structure de menu confuse. L'interface obsolète ne respectait pas les directives de marque d'Enedis ni les normes d'accessibilité, réduisant l'efficacité et l'adoption."
+                },
+                "researchQuestions": {
+                    "title": "Questions de recherche",
+                    "workflows": "Comment les utilisateurs accomplissent-ils leurs tâches quotidiennes dans Okoume ?",
+                    "painPoints": "Quels points de friction les utilisateurs rencontrent-ils lors de la navigation dans l'outil ?",
+                    "accessibility": "Quelles barrières d'accessibilité empêchent une utilisation efficace pour tous les utilisateurs ?"
+                },
+                "methodology": {
+                    "title": "Méthodologie",
+                    "content": "Nous avons débuté par un atelier avec les parties prenantes pour aligner les objectifs et le périmètre. Huit entretiens utilisateurs ont été menés en utilisant la méthode TEDW pour des informations approfondies. Des tests de tri par cartes ont été réalisés pour évaluer la structure du menu. Des sessions de co-création priorisées avec RICE ont été organisées. Deux itérations de prototypes ont été développées et validées par des tests d'utilisabilité."
+                },
+                "findings": {
+                    "title": "Résultats clés",
+                    "cognitive": {
+                        "title": "Surcharge cognitive :",
+                        "precision": "Trop de données par écran entravaient la prise de décision."
+                    },
+                    "navigation": {
+                        "title": "Inefficacités de navigation :",
+                        "precision": "Une architecture de l'information complexe entraînait des temps de recherche prolongés."
+                    },
+                    "accessibility": {
+                        "title": "Lacunes d'accessibilité :",
+                        "precision": "Plusieurs éléments ne respectaient pas les vérifications de conformité RGAA."
+                    },
+                    "information": {
+                        "title": "Hiérarchie de l'information :",
+                        "precision": "Les métriques critiques n'étaient pas priorisées visuellement."
+                    }
+                },
+                "analysis": {
+                    "title": "Analyse & Discussion",
+                    "content": "La cartographie des parcours utilisateurs a révélé des redondances dans les chemins de menu. Les audits d'accessibilité ont signalé des labels ARIA manquants et des problèmes de contraste. Les ateliers de co-création ont confirmé que les utilisateurs souhaitaient un tableau de bord simplifié avec des vues filtrées des données clés."
+                },
+                "conclusion": {
+                    "title": "Conclusion",
+                    "content": "La refonte a rationalisé les flux de travail, assuré une conformité RGAA complète et amélioré la satisfaction des utilisateurs. Les tests itératifs et la collaboration avec les parties prenantes ont été essentiels pour atteindre les objectifs des utilisateurs et de l'entreprise. Les prochaines étapes comprennent le déploiement progressif des mises à jour et le suivi des métriques d'adoption."
+                },
+                "references": {
+                    "title": "Références",
+                    "guidelines": "Directives RGAA Enedis",
+                    "protocol": "Protocole d'entretien TEDW",
+                    "tree": "Rapports de tests de tri par cartes"
+                }
+            }
+        }
+    }
+}

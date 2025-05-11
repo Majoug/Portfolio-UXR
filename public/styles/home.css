@@ -1,0 +1,30 @@
+.hero {
+    display: flex;
+    height: 100dvh;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+    .hero__name {
+        margin-bottom: 1rem;
+        font-size: 3rem;
+        font-weight: 600;
+        letter-spacing: .033em;
+    }
+
+    .hero__title {
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+}
+
+/**
+ * Main
+ */
+.main {
+    max-width: 75ch;
+    padding: 3em 1em;
+    margin: auto;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}

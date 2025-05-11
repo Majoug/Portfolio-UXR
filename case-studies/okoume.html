@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Case Study: Okoume Redesign (Enedis)</title>
+
+    <link rel="preload" href="/public/fonts/Inter.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="preload" href="/public/fonts/Inter-italic.ttf" as="font" type="font/ttf" crossorigin />
+
+    <link rel="stylesheet" href="/public/styles/case-study.css" />
+    <link rel="stylesheet" href="/public/styles/common.css" />
+    <link rel="stylesheet" href="/public/styles/footer.css" />
+</head>
+
+<body>
+    <header class="navigation">
+        <a href="/" class="navigation__logo-link" aria-label="Back to homepage" title="Back to homepage">
+            <svg class="navigation__logo">
+                <use href="/public/icons/icons.svg#mj-logo"></use>
+            </svg>
+        </a>
+
+        <nav class="navigation__link-list">
+            <a href="/case-studies/index.html" id="nav-case-studies">
+                <mj-i18n key="home.navigationLinks.caseStudies" />
+            </a>
+            <a href="#about" id="nav-about">
+                <mj-i18n key="home.navigationLinks.about" />
+            </a>
+            <!-- TODO: Add CV in PDF (new browser tab) -->
+            <a href="#resume" id="nav-contact">
+                <mj-i18n key="home.navigationLinks.resume" />
+            </a>
+
+            <select id="language-select" class="navigation__language-selector language-selector">
+                <button class="language-selector__button">
+                    <selectedcontent></selectedcontent>
+                    <svg class="icon language-selector__picker-icon" aria-hidden="true">
+                        <use href="/public/icons/icons.svg#arrow-down"></use>
+                    </svg>
+                </button>
+
+                <div class="language-selector__dropdown">
+                    <option selected value="fr" class="language-selector__option">
+                        <span aria-hidden="true">🇫🇷</span> Français
+                    </option>
+                    <option value="en" class="language-selector__option">
+                        <span aria-hidden="true">🇬🇧</span> English
+                    </option>
+                    <option value="es" class="language-selector__option">
+                        <span aria-hidden="true">🇪🇸</span> Español
+                    </option>
+                </div>
+            </select>
+        </nav>
+    </header>
+
+    <main class="main">
+        <aside class="case-study__nav">
+            <h3 class="case-study__nav-title"><mj-i18n key="caseStudy.nav.title" /></h3>
+            <ul>
+                <li>
+                    <a class="case-study__link" href="#introduction">
+                        <mj-i18n key="caseStudy.nav.links.introduction" />
+                    </a>
+                </li>
+                <li>
+                    <a class="case-study__link" href="#problem">
+                        <mj-i18n key="caseStudy.nav.links.problemStatement" />
+                    </a>
+                </li>
+                <li>
+                    <a class="case-study__link" href="#research-questions">
+                        <mj-i18n key="caseStudy.nav.links.researchQuestions" />
+                    </a>
+                </li>
+                <li>
+                    <a class="case-study__link" href="#methodology">
+                        <mj-i18n key="caseStudy.nav.links.methodology" />
+                    </a>
+                </li>
+                <li>
+                    <a class="case-study__link" href="#findings">
+                        <mj-i18n key="caseStudy.nav.links.keyFindings" />
+                    </a>
+                </li>
+                <li>
+                    <a class="case-study__link" href="#analysis">
+                        <mj-i18n key="caseStudy.nav.links.analysisDiscussion" />
+                    </a>
+                </li>
+                <li>
+                    <a class="case-study__link" href="#conclusion">
+                        <mj-i18n key="caseStudy.nav.links.conclusion" />
+                    </a>
+                </li>
+                <li>
+                    <a class="case-study__link" href="#references">
+                        <mj-i18n key="caseStudy.nav.links.references" />
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <div class="case-study__content">
+            <section id="introduction" class="anchor">
+                <h1><mj-i18n key="caseStudy.study.okoume.introduction.title" /></h1>
+                <p><mj-i18n key="caseStudy.study.okoume.introduction.content" /></p>
+            </section>
+
+            <section id="problem" class="anchor">
+                <h2><mj-i18n key="caseStudy.study.okoume.problem.title" /></h2>
+                <p><mj-i18n key="caseStudy.study.okoume.problem.content" /></p>
+            </section>
+
+            <section id="research-questions" class="anchor">
+                <h2><mj-i18n key="caseStudy.study.okoume.researchQuestions.title" /></h2>
+                <ul>
+                    <li><mj-i18n key="caseStudy.study.okoume.researchQuestions.workflows" /></li>
+                    <li><mj-i18n key="caseStudy.study.okoume.researchQuestions.painPoints" /></li>
+                    <li><mj-i18n key="caseStudy.study.okoume.researchQuestions.accessibility" /></li>
+                </ul>
+            </section>
+
+            <section id="methodology" class="anchor">
+                <h2><mj-i18n key="caseStudy.study.okoume.methodology.title" /></h2>
+                <p><mj-i18n key="caseStudy.study.okoume.methodology.content" /></p>
+            </section>
+
+            <section id="findings" class="anchor">
+                <h2><mj-i18n key="caseStudy.study.okoume.findings.title" /></h2>
+                <ul>
+                    <li><strong><mj-i18n key="caseStudy.study.okoume.findings.cognitive.title" /></strong> <mj-i18n
+                            key="caseStudy.study.okoume.findings.cognitive.precision" /></li>
+                    <li><strong><mj-i18n key="caseStudy.study.okoume.findings.navigation.title" /></strong> <mj-i18n
+                            key="caseStudy.study.okoume.findings.navigation.precision" /></li>
+                    <li><strong><mj-i18n key="caseStudy.study.okoume.findings.accessibility.title" /></strong> <mj-i18n
+                            key="caseStudy.study.okoume.findings.accessibility.precision" /></li>
+                    <li><strong><mj-i18n key="caseStudy.study.okoume.findings.information.title" /></strong> <mj-i18n
+                            key="caseStudy.study.okoume.findings.information.precision" /></li>
+                </ul>
+            </section>
+
+            <section id="analysis" class="anchor">
+                <h2><mj-i18n key="caseStudy.study.okoume.analysis.title" /></h2>
+                <p><mj-i18n key="caseStudy.study.okoume.analysis.content" /></p>
+            </section>
+
+            <section id="conclusion" class="anchor">
+                <h2><mj-i18n key="caseStudy.study.okoume.conclusion.title" /></h2>
+                <p><mj-i18n key="caseStudy.study.okoume.conclusion.content" /></p>
+            </section>
+
+            <section id="references" class="anchor">
+                <h2><mj-i18n key="caseStudy.study.okoume.references.title" /></h2>
+                <ul>
+                    <li><mj-i18n key="caseStudy.study.okoume.references.guidelines" /></li>
+                    <li><mj-i18n key="caseStudy.study.okoume.references.protocol" /></li>
+                    <li><mj-i18n key="caseStudy.study.okoume.references.tree" /></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer id="contact" class="contact">
+        <section>
+            <h2 class="contact__title"><mj-i18n key="home.contact.title" /></h2>
+            <p>
+                <a class="contact__link" href="tel:+33763430474">
+                    <svg class="icon" aria-hidden="true">
+                        <use href="/public/icons/icons.svg#phone"></use>
+                    </svg>
+                    +33 7 63 43 06 74
+                </a>
+            </p>
+            <p>
+                <a class="contact__link" href="mailto:mariajose.urbiolagallegos.gmail.com">
+                    <svg class="icon" aria-hidden="true">
+                        <use href="/public/icons/icons.svg#mail"></use>
+                    </svg>
+                    mariajose.urbiolagallegos.gmail.com
+                </a>
+            </p>
+        </section>
+    </footer>
+
+    <script type="module" src="/scripts/signal.mjs"></script>
+    <script type="module" src="/scripts/i18n.mjs"></script>
+    <script type="module" src="/scripts/language-select.mjs"></script>
+    <script type="module" src="/scripts/mj-i18n.mjs"></script>
+    <script type="module" src="/scripts/study-progress-observer.mjs"></script>
+</body>
+
+</html>
