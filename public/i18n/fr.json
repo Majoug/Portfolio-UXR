@@ -104,5 +104,52 @@
                 }
             }
         }
+    },
+    "aboutMe": {
+        "intro": {
+            "title": "À propos de moi",
+            "passionStatement": "Je suis une chercheuse UX Senior passionnée par la psychologie cognitive et l'ergonomie. Je combine des méthodes qualitatives et quantitatives pour fournir des informations claires et exploitables qui alignent les besoins des utilisateurs avec les objectifs commerciaux.",
+            "experienceOverview": "Avec plus de 7 ans d'expérience, je guide des équipes interfonctionnelles à travers des processus de conception centrés sur l'utilisateur — de la recherche générative au prototypage et aux tests."
+        },
+        "skills": {
+            "title": "Compétences",
+            "generativeResearch": "Recherche générative",
+            "usabilityTesting": "Tests d'utilisabilité",
+            "workshopsFacilitation": "Ateliers & Facilitation",
+            "personaJourneyMapping": "Persona & Cartographie de parcours",
+            "accessibility": "Accessibilité (RGAA)",
+            "researchOps": "ResearchOps",
+            "mentoring": "Mentorat"
+        },
+        "experience": {
+            "title": "Expérience",
+            "enedis": {
+                "title": "Chercheuse UX, Enedis",
+                "details": "(Mars 2023 – Avril 2024) : Refonte d'Okoume, amélioration des flux de travail et de l'accessibilité grâce à des informations basées sur les données."
+            },
+            "ankorstore": {
+                "title": "Chercheuse UX, Ankorstore",
+                "details": "(Avril 2022 – Déc. 2022) : Développement de la fonctionnalité de réapprovisionnement, réduisant le temps de commande de 17 à 5,5 minutes et augmentant la conversion."
+            },
+            "singulier": {
+                "title": "Chercheuse UX, Singulier",
+                "details": "(Sept. 2021 – Mars 2022) : Création de personas et de parcours, augmentant l'adoption du produit de 35 % grâce à des recommandations ciblées."
+            }
+        },
+        "education": {
+            "title": "Formation",
+            "phd": {
+                "name": "Doctorat en Psychologie Cognitive & IHM",
+                "details": ", Université de Paris (2018 – 2021)"
+            },
+            "masters": {
+                "name": "Master en Neuropsychologie",
+                "details": ", Université Paris VIII (2016 – 2018)"
+            }
+        },
+        "interests": {
+            "title": "Centres d'intérêt",
+            "content": "Je suis passionnée par les normes d'accessibilité, le mentorat de chercheurs juniors et l'exploration de la manière dont les technologies émergentes façonnent le comportement des utilisateurs."
+        }
     }
 }

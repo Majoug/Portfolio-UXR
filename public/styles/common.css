@@ -141,6 +141,13 @@ body {
     scroll-margin-block-start: 7.5rem;
 }
 
+.pill {
+    padding: .33em 1em;
+    border-radius: 9999px;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+
 /**
  * Navigation and related
  */
@@ -236,6 +243,9 @@ body {
 }
 
 .main {
+    padding-inline: 10rem;
+    padding-block: 7.5rem;
+
     section+section {
         margin-top: 4rem;
     }

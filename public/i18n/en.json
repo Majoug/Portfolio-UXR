@@ -104,5 +104,52 @@
                 }
             }
         }
+    },
+    "aboutMe": {
+        "intro": {
+            "title": "About Me",
+            "passionStatement": "I'm a Senior UX Researcher passionate about cognitive psychology and usability. I combine qualitative & quantitative methods to deliver clear, actionable insights that align user needs with business goals.",
+            "experienceOverview": "With 7+ years of experience, I guide cross-functional teams through user-centered design processes—from generative research to prototyping and testing."
+        },
+        "skills": {
+            "title": "Skills",
+            "generativeResearch": "Generative Research",
+            "usabilityTesting": "Usability Testing",
+            "workshopsFacilitation": "Workshops & Facilitation",
+            "personaJourneyMapping": "Persona & Journey Mapping",
+            "accessibility": "Accessibility (RGAA)",
+            "researchOps": "ResearchOps",
+            "mentoring": "Mentoring"
+        },
+        "experience": {
+            "title": "Experience",
+            "enedis": {
+                "title": "UX Researcher, Enedis",
+                "details": "(Mar 2023 – Apr 2024): Led Okoume redesign, improving workflows and accessibility with data-driven insights."
+            },
+            "ankorstore": {
+                "title": "UX Researcher, Ankorstore",
+                "details": "(Apr 2022 – Dec 2022): Developed reordering feature, reducing order time from 17 to 5.5 minutes and boosting conversion."
+            },
+            "singulier": {
+                "title": "UX Researcher, Singulier",
+                "details": "(Sep 2021 – Mar 2022): Created personas and journeys, increasing product adoption by 35% through targeted recommendations."
+            }
+        },
+        "education": {
+            "title": "Education",
+            "phd": {
+                "name": "PhD in Cognitive Psychology & HCI",
+                "details": ", Université de Paris (2018 – 2021)"
+            },
+            "masters": {
+                "name": "Master in Neuropsychology",
+                "details": ", Université Paris VIII (2016 – 2018)"
+            }
+        },
+        "interests": {
+            "title": "Interests",
+            "content": "I'm enthusiastic about accessibility standards, mentoring junior researchers, and exploring how emerging technologies shape user behavior."
+        }
     }
 }

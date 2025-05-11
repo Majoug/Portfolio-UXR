@@ -104,5 +104,52 @@
                 }
             }
         }
+    },
+    "aboutMe": {
+        "intro": {
+            "title": "Sobre mí",
+            "passionStatement": "Soy una investigadora UX Senior apasionada por la psicología cognitiva y la usabilidad. Combino métodos cualitativos y cuantitativos para ofrecer información clara y procesable que alinee las necesidades del usuario con los objetivos comerciales.",
+            "experienceOverview": "Con más de 7 años de experiencia, guío a equipos multifuncionales a través de procesos de diseño centrados en el usuario, desde la investigación generativa hasta la creación de prototipos y las pruebas."
+        },
+        "skills": {
+            "title": "Habilidades",
+            "generativeResearch": "Investigación generativa",
+            "usabilityTesting": "Pruebas de usabilidad",
+            "workshopsFacilitation": "Talleres y facilitación",
+            "personaJourneyMapping": "Persona y mapeo de recorrido",
+            "accessibility": "Accesibilidad (RGAA)",
+            "researchOps": "ResearchOps",
+            "mentoring": "Mentoría"
+        },
+        "experience": {
+            "title": "Experiencia",
+            "enedis": {
+                "title": "Investigadora UX, Enedis",
+                "details": "(Mar 2023 – Abr 2024): Lideré el rediseño de Okoume, mejorando los flujos de trabajo y la accesibilidad con información basada en datos."
+            },
+            "ankorstore": {
+                "title": "Investigadora UX, Ankorstore",
+                "details": "(Abr 2022 – Dic 2022): Desarrollé la función de repedido, reduciendo el tiempo de pedido de 17 a 5,5 minutos e impulsando la conversión."
+            },
+            "singulier": {
+                "title": "Investigadora UX, Singulier",
+                "details": "(Sep 2021 – Mar 2022): Creé personas y recorridos, aumentando la adopción del producto en un 35% a través de recomendaciones específicas."
+            }
+        },
+        "education": {
+            "title": "Educación",
+            "phd": {
+                "name": "Doctorado en Psicología Cognitiva e HCI",
+                "details": ", Université de Paris (2018 – 2021)"
+            },
+            "masters": {
+                "name": "Máster en Neuropsicología",
+                "details": ", Université Paris VIII (2016 – 2018)"
+            }
+        },
+        "interests": {
+            "title": "Intereses",
+            "content": "Me entusiasman los estándares de accesibilidad, ser mentora de investigadores junior y explorar cómo las tecnologías emergentes moldean el comportamiento del usuario."
+        }
     }
 }

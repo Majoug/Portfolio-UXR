@@ -2,16 +2,16 @@
 <html lang="fr">
 
 <head>
-    <base href="./" />
+    <base href="../" />
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>María José Urbiola Gallegos - Senior UX Researcher - IHM - Neuropsychologue</title>
+    <title>María José Urbiola Gallegos - About me</title>
 
     <link rel="preload" href="public/fonts/Inter.ttf" as="font" type="font/ttf" crossorigin />
     <link rel="preload" href="public/fonts/Inter-italic.ttf" as="font" type="font/ttf" crossorigin />
     <link rel="stylesheet" href="public/styles/common.css" />
-    <link rel="stylesheet" href="public/styles/home.css" />
+    <link rel="stylesheet" href="public/styles/about-me.css" />
     <link rel="stylesheet" href="public/styles/footer.css" />
 </head>
 
@@ -24,7 +24,7 @@
         </a>
 
         <nav class="navigation__link-list">
-            <a href="case-studies/index.html" id="nav-case-studies">
+            <a href="./case-studies/index.html" id="nav-case-studies">
                 <mj-i18n key="home.navigationLinks.caseStudies" />
             </a>
             <a href="about-me/index.html" id="nav-about">
@@ -58,20 +58,49 @@
         </nav>
     </header>
 
-    <section id="home" class="hero">
-        <h1 class="hero__name">María José Urbiola Gallegos</h1>
-        <h2 class="hero__title"><mj-i18n key="home.hero.subtitle" /></h2>
-    </section>
-
     <main class="main">
-        <section id="about" class="about anchor">
-            <h2 class="about__title">[TODO] À propos</h2>
-            <p>
-                Je suis UX Researcher Senior, spécialisée en psychologie cognitive et ergonomie. Mon objectif est
-                d'explorer
-                les problématiques utilisateurs pour fournir des insights clairs et actionnables, tout en alignant les
-                besoins des utilisateurs avec les objectifs business.
-            </p>
+        <section class="intro">
+            <div class="intro__about-me">
+                <h1><mj-i18n key="aboutMe.intro.title" /></h1>
+                <p><mj-i18n key="aboutMe.intro.passionStatement" /></p>
+                <p><mj-i18n key="aboutMe.intro.experienceOverview" /></p>
+            </div>
+            <div class="intro__image">
+                <img src="public/images/about-me.png" loading="lazy"
+                    alt="María José Urbiola Gallegos speaking at a conference"
+                    style="width:100%;max-width:300px;border-radius:50%;">
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2><mj-i18n key="aboutMe.skills.title" /></h2>
+            <ul class="skills__list">
+                <li class="skill__item pill"><mj-i18n key="aboutMe.skills.generativeResearch" /></li>
+                <li class="skill__item pill"><mj-i18n key="aboutMe.skills.usabilityTesting" /></li>
+                <li class="skill__item pill"><mj-i18n key="aboutMe.skills.workshopsFacilitation" /></li>
+                <li class="skill__item pill"><mj-i18n key="aboutMe.skills.personaJourneyMapping" /></li>
+                <li class="skill__item pill"><mj-i18n key="aboutMe.skills.accessibility" /></li>
+                <li class="skill__item pill"><mj-i18n key="aboutMe.skills.researchOps" /></li>
+                <li class="skill__item pill"><mj-i18n key="aboutMe.skills.mentoring" /></li>
+            </ul>
+        </section>
+
+        <section class="experience">
+            <h2><mj-i18n key="aboutMe.experience.title" /></h2>
+            <p><strong><mj-i18n key="aboutMe.experience.enedis.title" /></strong> <mj-i18n key="aboutMe.experience.enedis.details" /></p>
+            <p><strong><mj-i18n key="aboutMe.experience.ankorstore.title" /></strong> <mj-i18n key="aboutMe.experience.ankorstore.details" /></p>
+            <p><strong><mj-i18n key="aboutMe.experience.singulier.title" /></strong> <mj-i18n key="aboutMe.experience.singulier.details" /></p>
+        </section>
+
+        <section class="education">
+            <h2><mj-i18n key="aboutMe.education.title" /></h2>
+            <p><strong><mj-i18n key="aboutMe.education.phd.name" /></strong><mj-i18n key="aboutMe.education.phd.details" /></p>
+            <p><strong><mj-i18n key="aboutMe.education.masters.name" /></strong><mj-i18n key="aboutMe.education.masters.details" /></p>
+        </section>
+
+        <section class="interests">
+            <h2><mj-i18n key="aboutMe.interests.title" /></h2>
+            <p><mj-i18n key="aboutMe.interests.content" /></p>
         </section>
     </main>
 
