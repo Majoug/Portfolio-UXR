@@ -16,24 +16,22 @@
 
 <body>
     <header class="navigation">
-        <a href="/" class="navigation__logo-link">
+        <a href="/" class="navigation__logo-link" aria-label="Back to homepage" title="Back to homepage">
             <svg class="navigation__logo">
                 <use href="/public/icons/icons.svg#mj-logo"></use>
             </svg>
         </a>
 
         <nav class="navigation__link-list">
-            <a href="#home" id="nav-home" class="active">
-                <mj-i18n key="home.navigationLinks.home" />
+            <a href="/case-studies/index.html" id="nav-case-studies">
+                <mj-i18n key="home.navigationLinks.caseStudies" />
             </a>
             <a href="#about" id="nav-about">
                 <mj-i18n key="home.navigationLinks.about" />
             </a>
-            <a href="#projects" id="nav-projects">
-                <mj-i18n key="home.navigationLinks.projects" />
-            </a>
-            <a href="#contact" id="nav-contact">
-                <mj-i18n key="home.navigationLinks.contact" />
+            <!-- TODO: Add CV in PDF (new browser tab) -->
+            <a href="#resume" id="nav-contact">
+                <mj-i18n key="home.navigationLinks.resume" />
             </a>
 
             <select id="language-select" class="navigation__language-selector language-selector">

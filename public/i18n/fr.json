@@ -3,36 +3,36 @@
         "navigationLinks": {
             "home": "Accueil",
             "caseStudies": "Cas d'étude",
-            "aboutMe": "À propos",
-            "Resume": "C.V."
+            "about": "À propos",
+            "resume": "C.V."
         },
         "hero": {
             "subtitle": "Senior UX Researcher - IHM - Neuropsychologue"
         },
-        "projects": {
-            "okoume": {
-                "title": "Refonte Okoume (Enedis)",
-                "keywords": "Okoume, RGAA, Workshop",
-                "pitch": "Simplification des workflows de l'outil Okoume, adaptation de l'interface aux normes RGAA et amélioration de l'efficacité via ateliers et tests utilisateurs."
-            },
-            "ankorstore": {
-                "title": "Reordering Marketplace (Ankorstore)",
-                "keywords": "Reordering, Conversion, Marketplace",
-                "pitch": "Création d'une fonctionnalité de reordering intuitive et refonte du panier pour améliorer le taux de finalisation des commandes."
-            },
-            "aromazone": {
-                "title": "Optimisation UX (Aromazone)",
-                "keywords": "Navigation, Conversion, DIY",
-                "pitch": "Refonte du site pour simplifier la navigation et clarifier l'offre produit."
-            },
-            "singulier": {
-                "title": "Adoption produit (Singulier)",
-                "keywords": "Personas, Workshops, Adoption",
-                "pitch": "Développement de personas et parcours pour augmenter l'adoption du produit de 35%."
-            }
-        },
         "contact": {
             "title": "Contact"
+        }
+    },
+    "caseStudies": {
+        "okoume": {
+            "title": "Refonte Okoume (Enedis)",
+            "keywords": "Okoume, RGAA, Workshop",
+            "pitch": "Simplification des workflows de l'outil Okoume, adaptation de l'interface aux normes RGAA et amélioration de l'efficacité via ateliers et tests utilisateurs."
+        },
+        "ankorstore": {
+            "title": "Reordering Marketplace (Ankorstore)",
+            "keywords": "Reordering, Conversion, Marketplace",
+            "pitch": "Création d'une fonctionnalité de reordering intuitive et refonte du panier pour améliorer le taux de finalisation des commandes."
+        },
+        "aromazone": {
+            "title": "Optimisation UX (Aromazone)",
+            "keywords": "Navigation, Conversion, DIY",
+            "pitch": "Refonte du site pour simplifier la navigation et clarifier l'offre produit."
+        },
+        "singulier": {
+            "title": "Adoption produit (Singulier)",
+            "keywords": "Personas, Workshops, Adoption",
+            "pitch": "Développement de personas et parcours pour augmenter l'adoption du produit de 35%."
         }
     },
     "caseStudy": {

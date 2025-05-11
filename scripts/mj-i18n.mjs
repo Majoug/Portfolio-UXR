@@ -49,7 +49,7 @@ export class MjI18n extends HTMLElement {
         const translation = this.#i18n.t(currentKey);
         this.wrapper.textContent = translation
             ? translation
-            : `[${currentKey}]`;
+            : ``;
     }
 }
 

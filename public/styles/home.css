@@ -28,35 +28,3 @@
     border-top: 1px solid var(--border-color);
     border-bottom: 1px solid var(--border-color);
 }
-
-.projects {
-    .projects__list {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
-        gap: 2em;
-        padding: 0;
-        list-style-type: none;
-    }
-
-    .projects__ignore {
-        display: contents;
-    }
-
-    .projects__item {
-        display: block;
-        padding: 2em;
-        border: 1px solid var(--border-color);
-        border-radius: .33rem;
-        text-decoration: none;
-        transition: .15s background-color ease-in-out;
-
-        &:hover {
-            background-color: var(--border-color);
-        }
-    }
-
-    .projects__keywords {
-        margin-bottom: 1em;
-        font-style: italic;
-    }
-}
