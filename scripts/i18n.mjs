@@ -71,7 +71,7 @@ export class I18n {
     }
 
     async #loadTranslations(locale) {
-        const translationPath = `/public/i18n/${locale}.json`;
+        const translationPath = `public/i18n/${locale}.json`;
         const response = await fetch(translationPath);
         const loadedTranslations = await response.json();
         this.#writeTranslations(loadedTranslations);

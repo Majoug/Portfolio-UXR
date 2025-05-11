@@ -2,27 +2,29 @@
 <html lang="fr">
 
 <head>
+    <base href="../" />
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maria Jose Urbiola Gallegos - Senior UX Researcher - IHM - Neuropsychologue</title>
 
-    <link rel="preload" href="/public/fonts/Inter.ttf" as="font" type="font/ttf" crossorigin />
-    <link rel="preload" href="/public/fonts/Inter-italic.ttf" as="font" type="font/ttf" crossorigin />
-    <link rel="stylesheet" href="/public/styles/common.css" />
-    <link rel="stylesheet" href="/public/styles/case-studies.css" />
-    <link rel="stylesheet" href="/public/styles/footer.css" />
+    <link rel="preload" href="public/fonts/Inter.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="preload" href="public/fonts/Inter-italic.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="stylesheet" href="public/styles/common.css" />
+    <link rel="stylesheet" href="public/styles/case-studies.css" />
+    <link rel="stylesheet" href="public/styles/footer.css" />
 </head>
 
 <body>
     <header class="navigation">
         <a href="/" class="navigation__logo-link" aria-label="Back to homepage" title="Back to homepage">
             <svg class="navigation__logo">
-                <use href="/public/icons/icons.svg#mj-logo"></use>
+                <use href="public/icons/icons.svg#mj-logo"></use>
             </svg>
         </a>
 
         <nav class="navigation__link-list">
-            <a href="/case-studies/index.html" id="nav-case-studies">
+            <a href="./case-studies/index.html" id="nav-case-studies">
                 <mj-i18n key="home.navigationLinks.caseStudies" />
             </a>
             <a href="#about" id="nav-about">
@@ -37,7 +39,7 @@
                 <button class="language-selector__button">
                     <selectedcontent></selectedcontent>
                     <svg class="icon language-selector__picker-icon" aria-hidden="true">
-                        <use href="/public/icons/icons.svg#arrow-down"></use>
+                        <use href="public/icons/icons.svg#arrow-down"></use>
                     </svg>
                 </button>
 
@@ -61,7 +63,7 @@
             <h1 class="case-studies__title">Case studies</h1>
             <ul class="case-studies__list">
                 <li class="case-studies__ignore">
-                    <a href="/case-studies/okoume.html" class="case-studies__item">
+                    <a href="case-studies/okoume.html" class="case-studies__item">
                         <h3 class="case-studies__title"><mj-i18n key="caseStudies.okoume.title" /></h3>
                         <p><mj-i18n key="caseStudies.okoume.pitch" /></p>
                         <p class="case-studies__keywords">
@@ -72,7 +74,7 @@
                     </a>
                 </li>
                 <li class="case-studies__ignore">
-                    <a href="/case-studies/ankorstore.html" class="case-studies__item">
+                    <a href="case-studies/ankorstore.html" class="case-studies__item">
                         <h3 class="case-studies__title"><mj-i18n key="caseStudies.ankorstore.title" /></h3>
                         <p><mj-i18n key="caseStudies.ankorstore.pitch" /></p>
                         <p class="case-studies__keywords">
@@ -83,7 +85,7 @@
                     </a>
                 </li>
                 <li class="case-studies__ignore">
-                    <a href="/case-studies/aromazone.html" class="case-studies__item">
+                    <a href="case-studies/aromazone.html" class="case-studies__item">
                         <h3 class="case-studies__title"><mj-i18n key="caseStudies.aromazone.title" /></h3>
                         <p><mj-i18n key="caseStudies.aromazone.pitch" /></p>
                         <p class="case-studies__keywords">
@@ -94,7 +96,7 @@
                     </a>
                 </li>
                 <li class="case-studies__ignore">
-                    <a href="/case-studies/singulier.html" class="case-studies__item">
+                    <a href="case-studies/singulier.html" class="case-studies__item">
                         <h3 class="case-studies__title"><mj-i18n key="caseStudies.singulier.title" /></h3>
                         <p><mj-i18n key="caseStudies.singulier.pitch" /></p>
                         <p class="case-studies__keywords">
@@ -114,7 +116,7 @@
             <p>
                 <a class="contact__link" href="tel:+33763430474">
                     <svg class="icon" aria-hidden="true">
-                        <use href="/public/icons/icons.svg#phone"></use>
+                        <use href="public/icons/icons.svg#phone"></use>
                     </svg>
                     +33 7 63 43 06 74
                 </a>
@@ -122,7 +124,7 @@
             <p>
                 <a class="contact__link" href="mailto:mariajose.urbiolagallegos.gmail.com">
                     <svg class="icon" aria-hidden="true">
-                        <use href="/public/icons/icons.svg#mail"></use>
+                        <use href="public/icons/icons.svg#mail"></use>
                     </svg>
                     mariajose.urbiolagallegos.gmail.com
                 </a>
@@ -130,10 +132,10 @@
         </section>
     </footer>
 
-    <script type="module" src="/scripts/signal.mjs"></script>
-    <script type="module" src="/scripts/i18n.mjs"></script>
-    <script type="module" src="/scripts/language-select.mjs"></script>
-    <script type="module" src="/scripts/mj-i18n.mjs"></script>
+    <script type="module" src="scripts/signal.mjs"></script>
+    <script type="module" src="scripts/i18n.mjs"></script>
+    <script type="module" src="scripts/language-select.mjs"></script>
+    <script type="module" src="scripts/mj-i18n.mjs"></script>
 </body>
 
 </html>
